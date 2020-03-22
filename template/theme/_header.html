@@ -1,0 +1,22 @@
+<header class="header-wrap" style="background-image: url({{i18n "bg2"}});">
+  <nav class="main-nav">
+    {{if .Site.Logo}}
+      <a class="blog-logo" href="{{.Site.Root}}/"><img class="logo" src="{{.Site.Logo}}" /></a>
+    {{else}}
+      <a class="blog-logo" href="{{.Site.Root}}/">{{.Site.Title}}</a>
+    {{end}}
+    <ul class="menu vertical">
+        <li class="menu-item"><a href="{{.Site.Root}}/archive.html" style="color:black">{{i18n "archive"}}</a></li>
+        <li class="menu-item"><a href="{{.Site.Root}}/tag.html" style="color:black">{{i18n "tag"}}</a></li>
+        <li class="menu-item"><a href="{{.Site.Root}}/about.me.html" style="color:black">{{i18n "about"}}</a></li>
+        {{if .Site.Url}}<li class="menu-item"><a href="{{.Site.Root}}/atom.xml" style="color:black">{{i18n "rss"}}</a></li>{{end}}
+    </ul>
+  </nav>
+  <div class="vertical">
+    <div class="header-wrap-content inner">
+      <h1 class="title" style="color:black">{{.Site.Title}}</h1>
+      <h2 class="subtitle" style="color:black">{{.Site.Subtitle}}</h2>
+    </div>
+  </div>
+  <a class="scroll-down icon-down-open" href="#article"><span class="hidden">Scroll Down</span></a>
+</header>

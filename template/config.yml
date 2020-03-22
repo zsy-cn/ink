@@ -1,0 +1,33 @@
+site:
+    title: Xavier's Blog
+    subtitle: 做更美好的自己
+    limit: 9
+    theme: theme
+    # Configurable in theme/lang.yml
+    lang: en 
+    url: "https://zsy-cn.github.io/blog/"
+    comment: username
+    logo: "-/images/avatar.png"
+    # link: Article Link Scheme #Default Is {title}.html
+    # link: "{category}/{year}/{month}/{day}/{title}.html"
+    # link: "{year}{month}{day}{hour}{minute}{second}.html"
+    # root: "/blog"
+
+authors:
+    AuthorID:
+        name: "xavier"
+        intro: "傳統文化傳承者"
+        avatar: "-/images/avatar.png"
+
+build:
+    # Optional, Default is "public"
+    # output: "public"
+    port: 9292
+    # Copied files to public folder when build
+    copy:
+        - "source/images"
+    # Excuted command when use 'ink publish'
+    publish: |
+        git add . -A
+        git commit -m "update"
+        git push origin

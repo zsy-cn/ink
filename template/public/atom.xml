@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Xavier&#39;s Blog</title>
+  <id>https://zsy-cn.github.io/blog</id>
+  <updated>2020-03-22T15:23:04+08:00</updated>
+  <subtitle>做更美好的自己</subtitle>
+  <link href="https://zsy-cn.github.io/blog"></link>
+  <author>
+    <name>Xavier&#39;s Blog</name>
+  </author>
+  <entry>
+    <title>静态博客构建工具 - Ink</title>
+    <updated>2020-03-22T00:00:00+08:00</updated>
+    <id>tag:zsy-cn.github.io,2020-03-22:/blog/ink-blog-tool.html</id>
+    <link href="https://zsy-cn.github.io/blog/ink-blog-tool.html" rel="alternate"></link>
+    <summary type="html">&lt;p&gt;Ink 是一个 Golang 语言编写的开源静态博客构建工具，可以快速搭建博客网站。它无依赖跨平台，配置简单构建快速，注重简洁易用与更优雅的排版，设计主要参考 &lt;a href=&#34;https://github.com/InkProject/ink&#34;&gt; InkPaper &lt;/a&gt;。&lt;/p&gt;&#xA;</summary>
+  </entry>
+</feed>
